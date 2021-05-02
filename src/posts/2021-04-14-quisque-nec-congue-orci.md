@@ -1,9 +1,12 @@
 ---
-title: Quisque nec congue orci
+title: Quisque nec congue orci (ebook)
 date: '2021-01-14'
 excerpt: >-
   Quisque nec congue orci, id facilisis ex. Vestibulum sed sapien risus. Vestibulum tempus neque sed nunc volutpat, non pellentesque metus vehicula. Aliquam et velit a odio elementum varius eget sed massa. Sed id dui laoreet, facilisis nisl id, eleifend elit.
 coverImage: writing.jpg
+price: 14.50
+category: scifi
+pages: 203
 ---
 
 Quisque nec congue orci, id facilisis ex. Vestibulum sed sapien risus. Vestibulum tempus neque sed nunc volutpat, non pellentesque metus vehicula. Aliquam et velit a odio elementum varius eget sed massa. Sed id dui laoreet, facilisis nisl id, eleifend elit. Duis tellus odio, sagittis nec facilisis viverra, ultricies ac mi. Curabitur eget augue leo. Ut vel ullamcorper quam. Sed lectus purus, tincidunt ut finibus iaculis, iaculis in dolor. Maecenas vel dui eget erat consectetur commodo. Morbi accumsan, velit et luctus luctus, diam tellus interdum leo, vitae posuere metus tortor quis lacus. Etiam porttitor vulputate finibus. Duis commodo ultrices lacus a bibendum.

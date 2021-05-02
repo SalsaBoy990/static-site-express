@@ -4,6 +4,9 @@ date: '2021-01-18'
 excerpt: >-
   Vestibulum ante neque, sollicitudin vel ultrices malesuada, euismod eu est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras metus nibh, ullamcorper id est eget, scelerisque volutpat ante. Nulla facilisi. Praesent ornare orci purus, ut maximus dolor ultrices et.
 coverImage: writing.jpg
+price: 20.99
+category: 'fantasy'
+pages: 236
 ---
 
 Vestibulum ante neque, sollicitudin vel ultrices malesuada, euismod eu est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras metus nibh, ullamcorper id est eget, scelerisque volutpat ante. Nulla facilisi. Praesent ornare orci purus, ut maximus dolor ultrices et. Aliquam consequat fringilla accumsan. In ut libero libero. Mauris id justo non purus scelerisque iaculis nec vestibulum dui. Vestibulum rutrum nec ipsum nec imperdiet. Vestibulum non ligula orci. Ut sit amet nulla ullamcorper, commodo libero eu, semper felis. Donec eu diam vitae est vehicula tempor vitae vitae libero. Nulla ut enim et lorem congue molestie. Sed tempus purus vitae est interdum eleifend.
