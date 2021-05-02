@@ -133,7 +133,7 @@ function generateCanonicalURL (fileData: any, config: any): string {
 function generatePostId (fileData: any): string {
   'use strict'
   let nameSplitted: Array<string> = fileData.name.split('-')
-  nameSplitted.length = 3
+  nameSplitted.length = 4
 
   const postId: string = nameSplitted.join('')
   return postId
@@ -239,7 +239,7 @@ function convertDateFormat (postData: any, pathToFile: string, months: Array<str
 
 
 // save postdata for the index page
-function savePostDataForIndexPage (fileData: any, dateFormatted: string, postData: any, results: Array<mixed>): void {
+function savePostDataForIndexPage (fileData: any, dateFormatted: string, postData: any, postId: string, results: Array<mixed>): void {
   'use strict'
   // split filename to extract year, month, day, and the title of the post
   const datePart: Array<string> = fileData.name.split('-')
@@ -253,12 +253,16 @@ function savePostDataForIndexPage (fileData: any, dateFormatted: string, postDat
   // Here, the md files are in ascending order (oldest first),
   // so we need to be reverse the order for the index page
   results.unshift({
+    postId: postId,
     pathToPost: fileName,
     title: postData.attributes.title,
     author: postData.attributes.author,
     dateFormatted: dateFormatted,
     date: postData.attributes.date,
     excerpt: postData.attributes.excerpt,
+    price: postData.attributes.price,
+    category: postData.attributes.category,
+    pages: postData.attributes.pages,
     topic: postData.attributes.topic,
     coverImage: postData.attributes.coverImage
   })

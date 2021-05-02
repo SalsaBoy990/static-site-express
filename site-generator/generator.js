@@ -116,12 +116,23 @@ module.exports = function () {
       // convert md to HTML
       const postContents = $.md.render(postData.body)
 
+      const datePart = fileData.name.split('-')
+      datePart.length = 3
+      const titlePart = fileData.name.split('-').slice(3).join('-')
+    
+      // year/month/day/post_title.html
+      const fileName = '/' + (datePart.join('/') + '/' + titlePart + '.html')
+
       const templateConfig = Object.assign({}, config, {
         title: postData.attributes.title,
         author: postData.attributes.author,
         date: dateFormatted,
         excerpt: postData.attributes.excerpt,
         topic: (postData.attributes.topic) ? postData.attributes.topic : false,
+        price: postData.attributes.price,
+        category: postData.attributes.category,
+        pages: postData.attributes.pages,
+        pathToPost: fileName,
         comments: (postData.attributes.comments) ? postData.attributes.comments : false,
         body: postContents,
         canonicalUrl: canonicalUrl,
@@ -131,7 +142,7 @@ module.exports = function () {
       })
 
       // save postdata for the index page
-      $.ssg.savePostDataForIndexPage(fileData, dateFormatted, postData, postsDataForIndexPage)
+      $.ssg.savePostDataForIndexPage(fileData, dateFormatted, postData, postId, postsDataForIndexPage)
 
       // read layout data from file and then render layout with post contents
       const layoutContent = ejsRender(
