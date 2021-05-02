@@ -259,6 +259,9 @@ function savePostDataForIndexPage (fileData: any, dateFormatted: string, postDat
     dateFormatted: dateFormatted,
     date: postData.attributes.date,
     excerpt: postData.attributes.excerpt,
+    price: postData.attributes.price,
+    category: postData.attributes.category,
+    pages: postData.attributes.pages,
     topic: postData.attributes.topic,
     coverImage: postData.attributes.coverImage
   })
