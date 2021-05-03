@@ -2,3 +2,12 @@
 
 @import "./base/variables.scss";
 @import "./base/base.scss";
+
+img.product-image {
+  width: 240px;
+  height: auto;
+}
+
+.product-item {
+  max-width: 520px;
+}

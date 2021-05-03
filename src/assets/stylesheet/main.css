@@ -3,8 +3,15 @@ body,
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-button#deploy {
+button {
   cursor: pointer; }
 
 .hidden {
   display: none; }
+
+img.product-image {
+  width: 240px;
+  height: auto; }
+
+.product-item {
+  max-width: 520px; }
