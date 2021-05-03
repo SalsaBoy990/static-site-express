@@ -7,22 +7,30 @@
   <div>
     <% for (var i=postsDataForIndexPage.length - 1, j=0; i>= 0; i--) { %>
       <% if (postsDataForIndexPage[i].category=='fantasy' ) { %>
-        <div>
-          <img style="width: 360px; height: auto;"
-            src="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" alt="">
+        <div class="product-item">
+          <a href="<%= postsDataForIndexPage[i].pathToPost %>">
+            <img class="product-image" src="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" alt="">
+          </a>
           <h4>
             <a href="<%= postsDataForIndexPage[i].pathToPost %>">
               <%= postsDataForIndexPage[i].title %>
             </a>
           </h4>
+          <div>Author: <%= postsDataForIndexPage[i].author %></div>
           <div>Price: <b>$<%= postsDataForIndexPage[i].price %></b>
           </div>
-          <div>Number of pages: <%= postsDataForIndexPage[i].pages %></div>
+          <div>Number of pages: <%= postsDataForIndexPage[i].pages %>
+          </div>
+          <p>
+            <%= postsDataForIndexPage[i].excerpt %>
+          </p>
 
-          <button class="snipcart-add-item" data-item-id="<%= postsDataForIndexPage[i].postId %>" data-item-price="<%= postsDataForIndexPage[i].price %>"
+          <button class="snipcart-add-item" data-item-id="<%= postsDataForIndexPage[i].postId %>"
+            data-item-price="<%= postsDataForIndexPage[i].price %>"
             data-item-url="<%= postsDataForIndexPage[i].pathToPost %>"
             data-item-description="<%= postsDataForIndexPage[i].excerpt %>"
-            data-item-image="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" data-item-name="<%= postsDataForIndexPage[i].title %>">
+            data-item-image="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>"
+            data-item-name="<%= postsDataForIndexPage[i].title %>">
             Add to cart
           </button>
         </div>
@@ -37,21 +45,30 @@
   <div>
     <% for (var i=postsDataForIndexPage.length - 1, j=0; i>= 0; i--) { %>
       <% if (postsDataForIndexPage[i].category=='scifi' ) { %>
-        <div>
-          <img style="width: 360px; height: auto;"
-            src="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" alt="">
+        <div class="product-item">
+          <a href="<%= postsDataForIndexPage[i].pathToPost %>">
+            <img class="product-image" src="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" alt="">
+          </a>
           <h4>
             <a href="<%= postsDataForIndexPage[i].pathToPost %>">
               <%= postsDataForIndexPage[i].title %>
             </a>
           </h4>
+          <div>Author: <%= postsDataForIndexPage[i].author %></div>
           <div>Price: <b>$<%= postsDataForIndexPage[i].price %></b>
           </div>
-          <div>Number of pages: <%= postsDataForIndexPage[i].pages %></div>
-          <button class="snipcart-add-item" data-item-id="<%= postsDataForIndexPage[i].postId %>" data-item-price="<%= postsDataForIndexPage[i].price %>"
+          <div>Number of pages: <%= postsDataForIndexPage[i].pages %>
+          </div>
+          <p>
+            <%= postsDataForIndexPage[i].excerpt %>
+          </p>
+
+          <button class="snipcart-add-item" data-item-id="<%= postsDataForIndexPage[i].postId %>"
+            data-item-price="<%= postsDataForIndexPage[i].price %>"
             data-item-url="<%= postsDataForIndexPage[i].pathToPost %>"
             data-item-description="<%= postsDataForIndexPage[i].excerpt %>"
-            data-item-image="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" data-item-name="<%= postsDataForIndexPage[i].title %>">
+            data-item-image="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>"
+            data-item-name="<%= postsDataForIndexPage[i].title %>">
             Add to cart
           </button>
         </div>
@@ -67,21 +84,31 @@
   <div>
     <% for (var i=postsDataForIndexPage.length - 1, j=0; i>= 0; i--) { %>
       <% if (postsDataForIndexPage[i].category=='romance' ) { %>
-        <div>
-          <img style="width: 360px; height: auto;"
-            src="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" alt="">
+        <div class="product-item">
+          <a href="<%= postsDataForIndexPage[i].pathToPost %>">
+            <img class="product-image" src="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" alt="">
+          </a>
+
           <h4>
             <a href="<%= postsDataForIndexPage[i].pathToPost %>">
               <%= postsDataForIndexPage[i].title %>
             </a>
           </h4>
+          <div>Author: <%= postsDataForIndexPage[i].author %></div>
           <div>Price: <b>$<%= postsDataForIndexPage[i].price %></b>
           </div>
-          <div>Number of pages: <%= postsDataForIndexPage[i].pages %></div>
-          <button class="snipcart-add-item" data-item-id="<%= postsDataForIndexPage[i].postId %>" data-item-price="<%= postsDataForIndexPage[i].price %>"
+          <div>Number of pages: <%= postsDataForIndexPage[i].pages %>
+          </div>
+          <p>
+            <%= postsDataForIndexPage[i].excerpt %>
+          </p>
+
+          <button class="snipcart-add-item" data-item-id="<%= postsDataForIndexPage[i].postId %>"
+            data-item-price="<%= postsDataForIndexPage[i].price %>"
             data-item-url="<%= postsDataForIndexPage[i].pathToPost %>"
             data-item-description="<%= postsDataForIndexPage[i].excerpt %>"
-            data-item-image="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>" data-item-name="<%= postsDataForIndexPage[i].title %>">
+            data-item-image="/assets/images/uploads/<%= postsDataForIndexPage[i].coverImage %>"
+            data-item-name="<%= postsDataForIndexPage[i].title %>">
             Add to cart
           </button>
         </div>

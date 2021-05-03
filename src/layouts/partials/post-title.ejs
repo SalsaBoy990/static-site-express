@@ -1,16 +1,20 @@
 <small><%= date %></small>
 <h1><%= title %></h1>
 
+<div>Author: <%= author %></div>
 <div>Price: <b>$<%= price %></b>
 </div>
 <div>Number of pages: <%= pages %></div>
 
+<p><%= excerpt %></p>
 <button class="snipcart-add-item" data-item-id="<%= postId %>" data-item-price="<%= price %>"
 data-item-url="<%= pathToPost %>"
 data-item-description="<%= excerpt %>"
 data-item-image="/assets/images/uploads/<%= coverImage %>" data-item-name="<%= title %>">
 Add to cart
 </button>
+<br>
+<br>
 
 <img style="width: 360px; height: auto;"
 src="/assets/images/uploads/<%= coverImage %>" alt="">
