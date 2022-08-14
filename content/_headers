@@ -17,5 +17,5 @@
     # Disable plugins like Flash or Silverlight
     # Load images, scripts, stylesheets and fonts from self
     # Send reports to report-uri.io
-    # Add your link to the end of the line: report-uri https://report-uri.com/
-    Content-Security-Policy: frame-ancestors 'self'; default-src 'self' cloudfront.net *.cloudfront.net; style-src 'self' fonts.googleapis.com https://unpkg.com/netlify-cms@2.10.192/dist/cms.css; font-src 'self' fonts.gstatic.com gstatic.com *.gstatic.com fonts.googleapis.com; script-src 'self' identity.netlify.com https://unpkg.com/netlify-cms@2.10.192/dist/cms.js https://unpkg.com/browse/netlify-cms@2.10.192/dist/netlify-cms.js; child-src 'self'; img-src 'self'; object-src 'none'; connect-src 'self'; base-uri 'none'; form-action 'self';
+    # Add your link to the end of the line: report-uri 
+    Content-Security-Policy: frame-ancestors 'self'; default-src 'self' cloudfront.net *.cloudfront.net; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com gstatic.com *.gstatic.com fonts.googleapis.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' identity.netlify.com unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js; child-src 'self'; img-src 'self' cloudfront.net *.cloudfront.net blob: data:; object-src 'none'; connect-src 'self' www.netlifystatus.com/api/v2/components.json identity.netlify.com unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js; base-uri 'none'; form-action 'self';

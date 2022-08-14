@@ -78,6 +78,7 @@ module.exports = function () {
   // extend the list with new files here
   const filesToCopy = [
     '_redirects',
+    '_headers',
     'robots.txt',
     'sitemap.xml',
     'google517a67c0c3ff6768.html'
