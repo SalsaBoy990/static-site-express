@@ -18,7 +18,7 @@ git clone https://github.com/SalsaBoy990/static-site-express project
 
 - Checkout branch `snipcart`
 - Register at [Snipcart](https://snipcart.com/)
-- Copy your Snipcart public test key into `src/layouts/partials/header.ejs` as `data-api-key` attribute value on line 10:
+- Copy your Snipcart public test key at `src/layouts/partials/scripts.ejs` to the `publicApiKey` property value on line 6:
 
  ````html
  <div id="snipcart" data-config-modal-style="side" data-api-key="YOUR_PUBLIC_TEST_API_KEY" hidden></div>
