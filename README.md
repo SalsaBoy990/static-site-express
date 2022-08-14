@@ -16,7 +16,7 @@ git clone https://github.com/SalsaBoy990/static-site-express project
 
 2. To have a basic e-commerce website Flowbite/TailWind starter incorporating the [Snipcart](https://snipcart.com/) ecommerce platform into static-site-express:
 
-- Checkout branch `ecommerce`
+- Checkout branch `snipcart`
 - Register at [Snipcart](https://snipcart.com/)
 - Copy your Snipcart public test key into `src/layouts/partials/header.ejs` as `data-api-key` attribute value on line 10:
 
