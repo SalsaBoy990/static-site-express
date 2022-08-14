@@ -6,4 +6,8 @@ if (window.netlifyIdentity) {
       });
     }
   });
+
+  window.netlifyIdentity.on("logout", () => {
+    document.location.href = "/";
+  });
 }
