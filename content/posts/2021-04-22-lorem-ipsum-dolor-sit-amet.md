@@ -1,10 +1,16 @@
 ---
-title: Lorem ipsum dolor sit amet
-date: '2021-04-22'
+title: The Magnificent Savages
+author: Fred Mustard Stewart
+date: '2018-06-22'
 excerpt: >- 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue nisl, ultricies eu ex quis, bibendum iaculis neque. Integer blandit magna eget tempus ultricies.
-coverImage: node.jpg
+  The illegitimate son of shipping tycoon Nathaniel Savage, Justin Savage copes with pirates, the Taiping rebellion, Garibaldi's Italian revolution, his love for the beautiful Samantha Aspinall, and the degenerate plots of his scheming and vicious half-brother Sylvaner. 50,000 first printing.
+coverImage: the-magnificent-savages.jpg
+price: 11.99
+category: 'romance'
+pages: 383
 ---
+
+## Description
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue nisl, ultricies eu ex quis, bibendum iaculis neque. Integer blandit magna eget tempus ultricies. Vestibulum maximus turpis nibh, at consequat elit aliquet eu. Morbi convallis mollis ex, quis luctus risus maximus venenatis. Mauris congue euismod sodales. Sed fermentum finibus libero, eu imperdiet nunc vehicula at. Cras vitae ipsum suscipit, consequat leo vel, tristique lectus. Curabitur porta, arcu lobortis eleifend pulvinar, ex magna viverra enim, a pharetra felis leo feugiat erat.
 

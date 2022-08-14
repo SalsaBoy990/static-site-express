@@ -1,8 +1,8 @@
 <section class="max-w-2xl mx-auto pt-6">
-  <h2 class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-bold py-6 text-gray-900 dark:text-white">Newest writings</h2>
+  <h2 class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-bold py-6 text-gray-900 dark:text-white">Newest books</h2>
 
   <ol class="relative border-l border-gray-200 dark:border-gray-700">
-    <% for (var i = 0; i < postsDataForIndexPage.length; i++) { %>
+    <% for (var i = postsDataForIndexPage.length - 1; i >= 0; i--) { %>
     <li class="ml-4 mb-8">
       <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
       <time class="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-400"><%= postsDataForIndexPage[i].date %></time>
@@ -15,9 +15,9 @@
   </ol>
   <div class="text-left">
     <a
-      href="<%= site.url %>/writings.html"
+      href="<%= site.url %>/books.html"
       class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800"
-      >All writings</a
+      >All books</a
     >
   </div>
 </section>

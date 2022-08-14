@@ -133,12 +133,22 @@ module.exports = function () {
       // convert md to HTML
       const postContents = $.md.render(postData.body)
 
+      const datePart = fileData.name.split("-");
+      datePart.length = 3;
+      const titlePart = fileData.name.split("-").slice(3).join("-");
+
+      // year/month/day/post-title.html
+      const fileName = "/" + (datePart.join("/") + "/" + titlePart + ".html");
+
       const templateConfig = Object.assign({}, config, {
         title: postData.attributes.title,
-        breadcrumbTitle: "Writings",
+        breadcrumbTitle: "Books",
         author: postData.attributes.author,
         date: dateFormatted,
         excerpt: postData.attributes.excerpt,
+        price: postData.attributes.price,
+        pages: postData.attributes.pages,
+        category: postData.attributes.category,
         topic: postData.attributes.topic ? postData.attributes.topic : false,
         comments: postData.attributes.comments ? postData.attributes.comments : false,
         body: postContents,
@@ -146,7 +156,8 @@ module.exports = function () {
         postId: postId,
         coverImage: postData.attributes.coverImage,
         postTitleMeta: postData.attributes.title + " | " + config.site.title,
-        pageName: "writings",
+        pathToPost: fileName,
+        pageName: "books",
         isPost: true,
       });
 
@@ -244,17 +255,17 @@ module.exports = function () {
           );
           break;
 
-        case "writings.ejs":
+        case "books.ejs":
           layoutContent = ejsRender(
             $.fse.readFileSync(`${srcPath}/layouts/default.ejs`, "utf-8"),
             Object.assign({}, config, {
-              title: "Writings | " + config.site.title,
-              breadcrumbTitle: "Writings",
+              title: "Books | " + config.site.title,
+              breadcrumbTitle: "Books",
               body: pageContents,
               canonicalUrl: config.site.url + "/" + fileData.name,
               description: config.site.quote,
               isPost: false,
-              pageName: "writings",
+              pageName: "books",
             }),
             {
               filename: `${srcPath}/layouts/default.ejs`,

@@ -1,10 +1,20 @@
 ---
-title: Vestibulum ante neque
+title: Harry Potter and the Philosopher's Stone
+author: J.K. Rowling
 date: '2021-01-18'
 excerpt: >-
-  Vestibulum ante neque, sollicitudin vel ultrices malesuada, euismod eu est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras metus nibh, ullamcorper id est eget, scelerisque volutpat ante. Nulla facilisi. Praesent ornare orci purus, ut maximus dolor ultrices et.
-coverImage: writing.jpg
+  Escape to Hogwarts with the unmissable series that has sparked a lifelong reading journey for children and families all over the world. The magic starts here.
+  
+  Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. The magic starts here!
+  
+  These editions of the classic and internationally bestselling Harry Potter series feature thrilling jacket artwork by award-winning illustrator Jonny Duddle. They are the perfect starting point for anyone who's ready to lose themselves in the greatest children's story of all time.
+coverImage: harry-potter.jpg
+price: 6.99
+category: 'fantasy'
+pages: 352
 ---
+
+## Description
 
 Vestibulum ante neque, sollicitudin vel ultrices malesuada, euismod eu est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras metus nibh, ullamcorper id est eget, scelerisque volutpat ante. Nulla facilisi. Praesent ornare orci purus, ut maximus dolor ultrices et. Aliquam consequat fringilla accumsan. In ut libero libero. Mauris id justo non purus scelerisque iaculis nec vestibulum dui. Vestibulum rutrum nec ipsum nec imperdiet. Vestibulum non ligula orci. Ut sit amet nulla ullamcorper, commodo libero eu, semper felis. Donec eu diam vitae est vehicula tempor vitae vitae libero. Nulla ut enim et lorem congue molestie. Sed tempus purus vitae est interdum eleifend.
 

@@ -1,10 +1,17 @@
 ---
-title: Quisque nec congue orci
-date: '2021-04-14'
+title: The Andromeda Strain
+author: Michael Crichton
+date: '2021-01-14'
 excerpt: >-
-  Quisque nec congue orci, id facilisis ex. Vestibulum sed sapien risus. Vestibulum tempus neque sed nunc volutpat, non pellentesque metus vehicula. Aliquam et velit a odio elementum varius eget sed massa. Sed id dui laoreet, facilisis nisl id, eleifend elit.
-coverImage: writing.jpg
+  Five prominent biophysicists give the United States government an urgent warning: sterilisation procedures for returning space probes may be inadequate to guarantee uncontaminated re-entry to the atmosphere. Two years later, Project Scoop sends seventeen satellites into the fringes of space in order to 'collect organisms and dust for study'.
+  Then a probe falls to the earth, landing in a desolate area of northeastern Arizona. A little while later, in the nearby town of Piedmont, bodies are discovered heaped and flung across the ground, faces locked in frozen surprise. But the terror has only just begun, because when they try to find the cause of death, the scientists don't realise just what kind of unearthly danger they are dealing with...
+coverImage: andromeda-strain.jpg
+price: 14.50
+category: scifi
+pages: 304
 ---
+
+## Description
 
 Quisque nec congue orci, id facilisis ex. Vestibulum sed sapien risus. Vestibulum tempus neque sed nunc volutpat, non pellentesque metus vehicula. Aliquam et velit a odio elementum varius eget sed massa. Sed id dui laoreet, facilisis nisl id, eleifend elit. Duis tellus odio, sagittis nec facilisis viverra, ultricies ac mi. Curabitur eget augue leo. Ut vel ullamcorper quam. Sed lectus purus, tincidunt ut finibus iaculis, iaculis in dolor. Maecenas vel dui eget erat consectetur commodo. Morbi accumsan, velit et luctus luctus, diam tellus interdum leo, vitae posuere metus tortor quis lacus. Etiam porttitor vulputate finibus. Duis commodo ultrices lacus a bibendum.
 

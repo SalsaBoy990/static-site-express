@@ -5,11 +5,16 @@
           <img src="<%= site.url %>/assets/images/static-site-express.png" class="mr-2 h-10 sm:h-11" alt="<%= site.title %>">
           <span class="self-center text-lg sm:text-xl font-semibold whitespace-nowrap dark:text-white"><%= site.title %></span>
       </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <div class="flex md:order-2">
+        <button type="button" class="snipcart-checkout flex flex-row items-center text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm py-2 px-3 text-center mr-2 mb-0 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg><span class="snipcart-items-count mr-2"></span>
+          <span class="snipcart-total-price"></span></button>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+      </div>
+
+      <div class="hidden justify-between items-center md:flex w-full md:w-auto md:order-1" id="navbar-default">
         <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <% if (pageName === 'index') { %>
@@ -26,10 +31,10 @@
               <% } %>
           </li>
           <li>
-              <% if (pageName === 'writings') { %>
-              <a href="<%= site.url %>/writings.html" class="active-link" aria-current="page">Writings</a>
+              <% if (pageName === 'books') { %>
+              <a href="<%= site.url %>/books.html" class="active-link" aria-current="page">Books</a>
               <% } else { %>
-               <a href="<%= site.url %>/writings.html" class="inactive-link">Writings</a>
+               <a href="<%= site.url %>/books.html" class="inactive-link">Books</a>
               <% } %>
           </li>
           <li>
