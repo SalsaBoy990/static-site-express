@@ -1,9 +1,8 @@
 # static-site-express
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bb6cf5c7-4ccc-4684-8a82-30e64ac00baa/deploy-status)](https://app.netlify.com/sites/static-site-express/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e534127-f854-432f-a72b-a410231a53cb/deploy-status)](https://app.netlify.com/sites/static-site-snipcart/deploys)
 
 static-site-express is a simple Node.js based static-site generator that uses EJS and Markdown. Deploy your static site to Netlify or any platform to your liking. Suited for landing pages, portfolio, blogs, documentation, hobby projects.
-
 
 
 ## Getting started
