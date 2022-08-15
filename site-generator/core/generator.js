@@ -80,7 +80,6 @@ module.exports = function () {
     '_redirects',
     '_headers',
     'robots.txt',
-    'sitemap.xml',
     'google517a67c0c3ff6768.html'
   ]
 
