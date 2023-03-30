@@ -1,6 +1,6 @@
 // Make sure to commit it as "production"
 // For local development rewrite it to "development"
-const mode = "production";
+const mode = "development";
 
 // Add your global site properties here
 module.exports = {
@@ -28,7 +28,7 @@ module.exports = {
 
     // Using Algolia Search requires configuration
     // For local development set it to false (no need to send in the postdata for the search index)
-    enableSearch: true,
+    enableSearch: false,
     // post request with updated posts to Algolia search index
     // generally, you need to do it if you add new posts to the website
     refreshSearchIndex: false,
