@@ -6,7 +6,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .active-link {
@@ -23,7 +22,7 @@ body {
 
 .book-cover {
     margin-top: 0 !important;
-    margin-bottom: 0 !important; 
+    margin-bottom: 0 !important;
 }
 
 .snipcart-button-primary.snipcart-base-button.is-icon-right {

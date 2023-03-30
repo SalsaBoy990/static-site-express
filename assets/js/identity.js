@@ -7,7 +7,12 @@ if (window.netlifyIdentity) {
     }
   });
 
-  window.netlifyIdentity.on("logout", () => {
+  window.netlifyIdentity.on("logout", function () {
+    document.location.href = "/";
+  });
+
+  window.netlifyIdentity.on("error", function (err) {
+    console.error("Error", err);
     document.location.href = "/";
   });
 }
